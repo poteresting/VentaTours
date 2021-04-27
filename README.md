@@ -6,6 +6,8 @@ Description: This is a project to create fully functional and responsive website
 
 Note: The website features are currently being developed.
 
-# Instructions:
-Open the index.html file
-Click on Search Destination button
+# Instructions to view webpage:
+-> Download all files.
+-> Open the index.html file.
+-> Click on Search Destination button.
+-> Alternatively: View the webpage in the preview folder.
