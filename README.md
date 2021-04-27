@@ -11,4 +11,4 @@ Note: The website features are currently being developed.
 -> Open the index.html file.
 -> Click on Search Destination button.
 
-Alternatively: View the webpage in the preview folder.
+Alternatively view the webpage in the preview folder.
