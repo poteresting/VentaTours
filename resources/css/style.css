@@ -9,8 +9,8 @@
 }
 
 html{
-  background-color:rgb(255, 255, 255);
-  color: rgba(255, 255, 255);
+  background-color:rgba(255, 255, 255);
+  color: rgb(58, 58, 58);
   font-family: 'Lato', 'Arial', 'sans-serif';
   font-size: 20px;
   font-weight: 300;
@@ -20,6 +20,63 @@ html{
 .row{
   max-width: 1140px;
   margin: 0 auto;
+}
+
+/* ------------------------------------------------ */
+/* Features Design */
+/* ------------------------------------------------ */
+.section-features {
+  padding: 80px 0px;
+}
+
+.box {
+  padding: 1%
+}
+
+.section-features h2 {
+  font-size: 200%;
+  text-align: center;
+  font-weight: 350;
+  word-spacing: 10px;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+.section-features h2::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;;
+  content: " " ;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px
+}
+
+.section-features h3 {
+  font-size: 120%;
+  font-weight: 400;
+  text-align: center;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.section-features p {
+  font-size: 95%;
+  line-height: 145%;
+  font-weight: 300;
+  letter-spacing: 0.1px;
+  word-spacing: 1px;
+  text-align: center;
+} 
+
+.section-features i {
+  font-size: 400%;
+  display: block;
+  color: #e67e22;
+  margin: 4px;
+  text-align: center;
+
 }
 
 /* ------------------------------------------------ */
@@ -39,8 +96,9 @@ h1{
   font-weight: 500;
 }
 
-h2{
+.moto{
   padding-left: 17px;
+  text-align: left;
   font-style: italic;
   font-size: 150%;
   word-spacing: 15px;
@@ -49,6 +107,7 @@ h2{
 
 .title-label{
   position: absolute;
+  color: white;
   width: 1140px;
   top: 50%;
   left: 50%;
