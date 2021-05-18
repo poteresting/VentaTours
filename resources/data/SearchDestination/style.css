@@ -14,21 +14,24 @@ body{
   font-family: 'Open Sans', BlinkMacSystemFont, Cantarell, 'Helvetica Neue', sans-serif;
   text-align: justify;
   font-size: 17px;
-  background-color: #FFFF99;
+  background-color: #ffff9c;
 }
 
 h3{
   text-align: center;
   font-size: 30px;
-  color: darkred;
+  color: rgb(192, 44, 44);
   margin: 15px;
+  padding-top: 5px;
+  
 }
 
 h1{
-  color: rgb(7, 7, 160);
-  font-size: 40px;
+  color: rgb(98, 98, 167);
+  font-size: 60px;
   text-align: center;
-  margin: 15px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 h4{
@@ -36,11 +39,18 @@ h4{
   color: rgb(2, 114, 2);
   font-size: 25px;
   margin: 15px;
+  padding-top: 5px;
+}
+
+.places-heading {
+  padding-top: 35px;
 }
 
 .referral-link{
   font-size: 20px;
-  color: darkred;
+  color: rgb(192, 44, 44);
+  padding-bottom: 25px;
+  border-bottom: 3px solid #e67e22;
 }
 
 img{
@@ -48,11 +58,16 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  padding-top: 75px;
+}
+
+.places {
+  padding-top: 10px;
 }
 
 p{
-  margin-bottom: 50px;
-  padding-bottom: 15px;
+  /* margin-bottom: 50px; */
+  padding-bottom: 35px;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 20px;
