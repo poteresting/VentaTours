@@ -10,5 +10,3 @@ Note: Some website features are currently being developed.
 -> Download all files.
 -> Open the index.html file.
 -> Click on Search Destination button.
-
-Alternatively view the webpage in the preview folder.
