@@ -512,6 +512,13 @@ input[type=button]{
   margin-left: 0px;
 }
 
+.section-form select{
+  color: gray;
+}
+.section-form option:not(:checked) {
+  color: #000;
+}
+
 *:focus {
   outline: none;
 }
