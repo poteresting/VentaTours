@@ -34,7 +34,7 @@ html{
 /* Features Design */
 /* ------------------------------------------------ */
 .section-features {
-  padding: 75px 0px;
+  padding: 70px 0px;
   background-color: #f4f4f4;
 }
 
@@ -222,6 +222,10 @@ input[type=button]:active{
 /* City Pictures section */
 /* ------------------------------------------------ */
 
+.city-pictures-section {
+  padding-bottom: 75px; 
+}
+
 .pics-container {
   list-style: none;
   width:100%
@@ -263,7 +267,7 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .section-get-started {
-  padding: 75px 0px;
+  padding: 70px 0px;
 }
 .started-box:first-child {
   margin-top: 60px;
@@ -321,7 +325,7 @@ input[type=button]:active{
 /* Places Section */
 /* ------------------------------------------------ */
 .section-places {
-  padding: 75px 0 70px 0px;
+  padding: 70px 0px;
 }
 
 .section-places h4, h3 {
@@ -475,7 +479,8 @@ cite img {
 /* ------------------------------------------------ */
 
 .section-form {
-  padding: 80px 0px;
+  padding: 70px 0px;
+  background-color: #f4f4f4;
 }
 
 .contact-form {
@@ -509,4 +514,93 @@ input[type=button]{
 
 *:focus {
   outline: none;
+}
+
+
+/* ------------------------------------------------ */
+/* Footer Section */
+/* ------------------------------------------------ */
+
+footer {
+  background-color: #333;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-nav {
+  list-style: none;
+  float:left;
+}
+
+.social-icons {
+  list-style: none;
+  float:right;
+}
+
+.footer-nav li,
+.social-icons li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+.footer-nav a:link,
+.footer-nav a:visited,
+.social-icons a:link,
+.social-icons a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 90%;
+  color: #999;
+  transition: color 0.2s;
+  margin-bottom: 7px;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active {
+  color: #f4f4f4;
+}
+
+footer p {
+  color: #999;
+  text-align: left;
+  font-size: 85%;
+  margin-top: 7px;
+}
+
+footer p:last-child {
+  text-align: center;
+  font-size: 75%;
+  margin-top: 40px;
+}
+
+.social-icons a:link,
+.social-icons a:visited {
+  font-size: 140%;
+  transition: color 0.2s;
+}
+
+
+.ion-social-facebook:hover,
+.ion-social-facebook:active {
+  color: #1877f2;
+}
+
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+  color: #c32aa3;
+}
+
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+  color: #1da1f2;
+}
+
+.ion-email:hover,
+.ion-email:active {
+  color: #db4437;
 }
