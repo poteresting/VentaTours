@@ -54,7 +54,7 @@ html{
 .title::after {
   display: block;
   height: 1.7px;
-  background-color: #e67e22;;
+  background-color: #e67e22;
   content: " " ;
   width: 100px;
   margin: 0 auto;
@@ -89,14 +89,15 @@ html{
 }
 
 /* ------------------------------------------------ */
-/* Header */
+/* Header  (rgba(5, 5, 40, 0.5), rgba(5, 5, 40, 0.5)) */
 /* ------------------------------------------------ */
 
 header{
-  background-image: linear-gradient(rgba(5, 5, 40, 0.5), rgba(5, 5, 40, 0.5)), url(img/Beach.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1{
@@ -128,34 +129,48 @@ h1{
 /* ------------------------------------------------ */
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=button]{
   display: inline-block;
   padding: 8px 15px;
   margin: 15px 5px 0px 15px;
   border-radius: 200px;
-  border: 2px solid #f39c12;
   text-decoration: none;
   font-size: 100%;
   font-weight: 500;
-  transition: color 0.2s;
 }
 
 .btn-full:link,
-.btn-full:visited{
-  background-color: #f39c12;
+.btn-full:visited, 
+input[type=button],
+input[type=button]{
+  background-color: #ce6408;
+  border: 2px solid #ce6408;
   color: #fff;
+  transition: color 0.1s;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited{
   background-color: transparent;
-  color: #f39c12;
+  color: #d47d31;
+  border: 2px solid #d47d31;
+  transition: color 0.1s;
 }
 
-.btn:hover,
-.btn:active{
-  border: 2px solid #e67e22;
-  background-color: #e67e22;
+.btn-ghost:hover,
+.btn-ghost:active{
+  border: 2px solid #a04b00;
+  background-color: #a04b00;
+  color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=button]:hover,
+input[type=button]:active{
+  border: 2px solid #a04b00;
+  background-color: #a04b00;
   color: #fff;
 }
 
@@ -164,9 +179,9 @@ h1{
 /* ------------------------------------------------ */
 
 .logo{
-  margin-top: 20px;
-  margin-left: 12%;
-  height: 100px;
+  margin-top: 18px;
+  margin-left: 10%;
+  height: 200px;
   width: auto;
   float: left;
 }
@@ -231,7 +246,7 @@ h1{
   height: auto;
   transform: scale(1.03);
   opacity: 0.6;
-  transition: transform 0.4s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 .city-photo img:hover {
@@ -323,17 +338,11 @@ h1{
 }
 
 .small-icon {
-  /* display: inline-block; */
-  width: 30px;
   padding-right: 10px;
   color:#e67e22;
-  font-size: 120%;
+  font-size: 110%;
   text-align: center;
   line-height: 120%;
-  vertical-align:middle;
-  margin-top: -10px;
-  padding-bottom: 15px;
-  padding-top: 20px;
 }
 
 .section-places img {
@@ -343,3 +352,161 @@ h1{
 .end-places {
   margin-top: 450px;
 } 
+
+.city-line {
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+/* ------------------------------------------------ */
+/* Reviews Section */
+/* ------------------------------------------------ */
+
+.section-reviews {
+  background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color:#fff;
+  padding-top: 70px;
+  padding-bottom: 55px;
+}
+
+blockquote {
+  padding:3%;
+  margin-top: 50px;
+  line-height: 150%;
+  font-style: italic;
+  font-size: 100%;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  left: -3px;
+  top: 1px;
+  position: absolute;
+}
+
+blockquote p {
+  display: inline-block;
+  font-size: 100%;
+  margin-top: 10px;
+}
+
+.location-review {
+  float: left;
+  font-size: 80%;
+  padding-left: 89px;
+  margin-top: -35px;
+}
+
+cite {
+  display: block;
+  margin-top: 25px;
+}
+
+cite img {
+  border-radius: 50%;
+  margin-right: 20px;
+  height: 70px;
+  vertical-align: top;
+}
+
+/* ------------------------------------------------ */
+/* Services Section */
+/* ------------------------------------------------ */
+
+.section-services {
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+
+.section-services img {
+  padding: 15px 0px;
+  align-content: center;
+}
+
+.section-services ul{
+  list-style: none;
+}
+
+.section-services li {
+  margin-top: 15px;;
+  font-size: 105%;
+  line-height: 145%;
+  font-weight: 300;
+  letter-spacing: 0.1px;
+  word-spacing: 1px;
+}
+
+.section-services li:first-child {
+  margin-top: 25px;
+}
+
+.section-services i {
+  display: inline-block;
+  font-size: 130%;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 5px;
+  vertical-align: bottom;
+}
+
+.clear-this {
+  padding-left: 4px;
+}
+
+.service-box {
+  background-color: #f4f4f4;
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding-left: 2.5%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* ------------------------------------------------ */
+/* Form Section */
+/* ------------------------------------------------ */
+
+.section-form {
+  padding: 80px 0px;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+textarea {
+  height: 120px;
+}
+
+input[type=checkbox]{
+  margin: 10px 7px 20px 0px;
+}
+
+input[type=button]{
+  margin-left: 0px;
+}
+
+*:focus {
+  outline: none;
+}
