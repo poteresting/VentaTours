@@ -118,9 +118,8 @@ h1{
 .title-label{
   position: absolute;
   color: white;
-  width: 1140px;
   top: 50%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%) ;
 }
 
@@ -179,11 +178,11 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .logo{
-  margin-top: 18px;
+  margin-top: 1%;
   margin-left: 10%;
   height: 200px;
   width: auto;
-  float: left;
+  /* float: left; */
 }
 
 .main-navigation{
@@ -248,7 +247,7 @@ input[type=button]:active{
 .city-photo img {
   width: 100%;
   height: auto;
-  transform: scale(1.03);
+  transform: scale(1.05);
   opacity: 0.6;
   transition: transform 0.5s, opacity 0.5s;
 }
@@ -291,7 +290,6 @@ input[type=button]:active{
   color: #e67e22;
   border: 2px solid #e67e22;
   border-radius: 50%;
-  padding: 10px;
   height: 50px;
   width: 50px;
   text-align: center;
@@ -311,8 +309,8 @@ input[type=button]:active{
 }
 
 .download-button img {
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: 10%;
+  margin-left: 5%;
   width: 40%;
   transition: transform 0.3s;
 }
@@ -416,7 +414,8 @@ cite {
 cite img {
   border-radius: 50%;
   margin-right: 20px;
-  height: 70px;
+  width: 20%;
+  height: auto;
   vertical-align: top;
 }
 
@@ -432,10 +431,14 @@ cite img {
 .section-services img {
   padding: 15px 0px;
   align-content: center;
+  width: 95%;
+  height: auto;
+  margin-left: 2.5%;
 }
 
 .section-services ul{
   list-style: none;
+  margin-left: 2.5%;
 }
 
 .section-services li {
@@ -469,7 +472,6 @@ cite img {
   border: 0.2px solid rgba(0, 0, 0, 0.1);
   border-bottom: 2.5px solid rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  padding-left: 2.5%;
   padding-top: 20px;
   padding-bottom: 30px;
 }

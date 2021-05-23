@@ -1,0 +1,90 @@
+/* Big tablets to 1200px (width less than 1140px */
+@media only screen and (max-width: 1200px){
+
+	body {
+		font-size: 85%;
+	}
+
+	.city-pictures-section {
+		width: 95%;
+		padding-left: 5%; 
+	}
+
+	.logo {
+		padding-top: 5%;
+	}
+
+	.started-box {
+		font-size: 115%;
+	}	
+
+	.next-step:first-child {
+		margin-top: 30px;
+	}
+
+	.download-btn-media {
+		width: 120%;
+	}
+	
+	.row {
+		padding: 0 5%;
+	}
+}
+
+/* Small tablet to big tablets range 768 to 1023px */
+@media only screen and (max-width: 1023px){
+
+	body {
+		font-size: 80%;
+	}
+
+	
+	.download-btn-media {
+		width: 150%;
+		margin-left: 15%;
+	}
+
+	.logo {
+		padding-top: 7%;
+	}
+
+	.title-label{
+		font-size: 85%;
+		width: 100%;
+		padding-left: 30%;
+	}
+
+	cite {
+		width:170%;
+	}
+
+}
+/* Small phones to small tablets from 481 to 767px */
+@media only screen and (max-width: 767px){
+	.logo {
+		padding-top: 10%;
+	}
+
+	.main-navigation {
+		display: none;
+	}
+
+	cite {
+		width: 90%;
+	}	
+	
+	.download-btn-media {
+		width: 120%;
+		margin-left: 25%;
+	}
+
+	.contact-form {
+		font-size: 120%;
+	}
+}
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 479px){
+	.row {
+		padding: 0 8%;
+	}
+}
