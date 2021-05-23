@@ -84,7 +84,25 @@
 }
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 479px){
+
+	body {
+		font-size: 70%;
+	}
+
 	.row {
 		padding: 0 8%;
+	}
+
+	cite {
+		width: 125%;
+	}
+
+	.download-btn-media {
+		width: 160%;
+		margin-left: 20%;
+	}
+
+	.started-box {
+		font-size: 110%;
 	}
 }
