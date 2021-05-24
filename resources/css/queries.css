@@ -10,10 +10,6 @@
 		padding-left: 5%; 
 	}
 
-	.logo {
-		padding-top: 5%;
-	}
-
 	.started-box {
 		font-size: 115%;
 	}	
@@ -38,35 +34,37 @@
 		font-size: 80%;
 	}
 
-	
-	.download-btn-media {
-		width: 150%;
-		margin-left: 15%;
-	}
-
 	.logo {
-		padding-top: 7%;
+		width: 25%;
+		height: auto;
+		padding-top: 15%;
+		padding-left: 5%;
 	}
 
 	.title-label{
-		font-size: 85%;
-		width: 100%;
-		padding-left: 30%;
+		font-size: 95%;
+		padding-left: 15%;
 	}
 
 	cite {
-		width:120%;
+		width: 130%;
+		height: auto;
 	}
-
-	cite p {
-		margin-bottom: 30px;
-	}
-
 }
+
 /* Small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px){
+
+	body {
+		font-size: 80%;
+	}
+
+	.title-label {
+		margin-left: 12%;
+	}
+
 	.logo {
-		padding-top: 10%;
+		width: 40%;
 	}
 
 	.main-navigation {
@@ -74,11 +72,12 @@
 	}
 
 	cite {
-		width: 90%;
+		width: 85%;
+		height: auto;
 	}	
 
-	.contact-form {
-		font-size: 120%;
+	cite p {
+			font-size: 115%;
 	}
 }
 /* Small phones from 0 to 480px */
@@ -93,10 +92,23 @@
 	}
 
 	cite {
-		width: 105%;
+		width: 100%;
 	}
 
 	.started-box {
 		font-size: 110%;
+	}
+
+	.title-label{
+		font-size: 85%;
+		margin-left: 15%;
+	}
+
+	.logo {
+		width: 50%;
+	}
+
+	.btn {
+		float: left;
 	}
 }

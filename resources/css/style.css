@@ -120,6 +120,7 @@ h1{
   font-weight: 500;
 }
 .title-label{
+  width: auto;
   position: absolute;
   color: white;
   top: 50%;
@@ -188,11 +189,7 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .logo{
-  margin-top: 1%;
-  margin-left: 10%;
-  height: 200px;
-  width: auto;
-  /* float: left; */
+  margin-left: 5%;
 }
 
 .main-navigation{
@@ -420,17 +417,15 @@ blockquote:before {
   position: absolute;
 }
 
-blockquote p {
+.customers{
   display: inline-block;
-  font-size: 100%;
-  margin-top: 10px;
+  font-size: 120%;
+  margin-top: 2%;
+  font-size: 90%;
 }
 
-.location-review {
-  float: left;
-  font-size: 80%;
-  padding-left: 89px;
-  margin-top: -35px;
+blockquote p:last-child {
+  font-size: 85%;
 }
 
 cite {
