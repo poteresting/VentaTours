@@ -79,7 +79,12 @@
 	cite p {
 			font-size: 115%;
 	}
+
+	/* header {
+		background-attachment: scroll;
+	} */
 }
+
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 479px){
 
@@ -107,4 +112,8 @@
 	.logo {
 		width: 50%;
 	}
+
+	/* header {
+		background-attachment: scroll;
+	} */
 }
