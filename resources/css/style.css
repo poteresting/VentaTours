@@ -5,7 +5,8 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html{
@@ -94,6 +95,8 @@ html{
 /* ------------------------------------------------ */
 
 header{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/3.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
   height: 100vh;
   background-position: center;
@@ -121,7 +124,9 @@ h1{
   color: white;
   top: 50%;
   left: 25%;
-  transform: translate(-50%, -50%) ;
+  -webkit-transform: translate(-50%, -50%) ;
+      -ms-transform: translate(-50%, -50%) ;
+          transform: translate(-50%, -50%) ;
 }
 
 /* ------------------------------------------------ */
@@ -147,6 +152,8 @@ input[type=button]{
   background-color: #ce6408;
   border: 2px solid #ce6408;
   color: #fff;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
   transition: color 0.1s;
 }
 
@@ -155,6 +162,8 @@ input[type=button]{
   background-color: transparent;
   color: #d47d31;
   border: 2px solid #d47d31;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
   transition: color 0.1s;
 }
 
@@ -209,6 +218,8 @@ input[type=button]:active{
   font-size: 90%;
   padding-bottom: 3.5px;
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  -o-transition: border-bottom 0.2s;
   transition: border-bottom 0.2s;
 }
 
@@ -248,14 +259,22 @@ input[type=button]:active{
 .city-photo img {
   width: 100%;
   height: auto;
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
   opacity: 0.6;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  -o-transition: transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .city-photo img:hover {
   opacity: 1;
-  transform: scale(1.7);
+  -webkit-transform: scale(1.7);
+      -ms-transform: scale(1.7);
+          transform: scale(1.7);
 }
 .city-photo:hover {
   overflow: visible;
@@ -313,11 +332,17 @@ input[type=button]:active{
   margin-top: 10%;
   margin-left: 5%;
   width: 40%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .download-button img:hover{
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 /* ------------------------------------------------ */
@@ -366,6 +391,8 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .section-reviews {
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.85)),to(rgba(0,0,0,0.8))),url(../img/forest.jpg);
+  background-image: -o-linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
   background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -431,7 +458,8 @@ cite img {
 
 .section-services img {
   padding: 15px 0px;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   width: 95%;
   height: auto;
   margin-left: 2.5%;
@@ -566,6 +594,8 @@ footer {
   text-decoration: none;
   font-size: 90%;
   color: #999;
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
   transition: color 0.2s;
   margin-bottom: 7px;
 }
@@ -591,6 +621,8 @@ footer p:last-child {
 .social-icons a:link,
 .social-icons a:visited {
   font-size: 140%;
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
   transition: color 0.2s;
 }
 
