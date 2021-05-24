@@ -515,8 +515,8 @@ cite img {
 }
 
 .contact-form {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
   padding-top: 20px;
 }
 
@@ -526,7 +526,7 @@ input[type=email],
 textarea,
 select {
   width: 100%;
-  padding: 6px;
+  padding: 2%;
   border-radius: 4px;
   border: 1px solid rgb(190, 190, 190);
 }
