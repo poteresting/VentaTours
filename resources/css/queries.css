@@ -22,10 +22,10 @@
 		margin-top: 30px;
 	}
 
-	.download-btn-media {
-		width: 120%;
+	.download-button {
+		margin-left: 10%;
 	}
-	
+
 	.row {
 		padding: 0 5%;
 	}
@@ -55,7 +55,11 @@
 	}
 
 	cite {
-		width:170%;
+		width:120%;
+	}
+
+	cite p {
+		margin-bottom: 30px;
 	}
 
 }
@@ -72,11 +76,6 @@
 	cite {
 		width: 90%;
 	}	
-	
-	.download-btn-media {
-		width: 120%;
-		margin-left: 25%;
-	}
 
 	.contact-form {
 		font-size: 120%;
@@ -94,12 +93,7 @@
 	}
 
 	cite {
-		width: 125%;
-	}
-
-	.download-btn-media {
-		width: 160%;
-		margin-left: 20%;
+		width: 105%;
 	}
 
 	.started-box {
