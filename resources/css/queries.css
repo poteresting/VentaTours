@@ -80,9 +80,9 @@
 			font-size: 115%;
 	}
 
-	/* header {
+	header {
 		background-attachment: scroll;
-	} */
+	}
 }
 
 /* Small phones from 0 to 480px */
@@ -113,7 +113,7 @@
 		width: 50%;
 	}
 
-	/* header {
+	header {
 		background-attachment: scroll;
-	} */
+	}
 }
