@@ -15,7 +15,8 @@ html{
   font-family: 'Lato', 'Arial', 'sans-serif';
   font-size: 20px;
   font-weight: 300;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .row{
