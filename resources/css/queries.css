@@ -123,5 +123,6 @@
 	
 	body header {
 		background-size: 100%;
+		background-attachment: scroll;
 	}
 }
