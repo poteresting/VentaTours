@@ -187,6 +187,7 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .logo{
+  margin-top: 1%;
   margin-left: 5%;
 }
 
@@ -198,7 +199,7 @@ input[type=button]:active{
   float: right;
   list-style: none;
   position: absolute;
-  top: 7%;
+  top: 5%;
   right: 7%;
 }
 
