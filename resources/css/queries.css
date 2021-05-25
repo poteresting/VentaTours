@@ -3,6 +3,7 @@
 	.logo {
 		float: right;
 		margin-top: -10%;
+		margin-right: -3%;
 	}
 }
 
@@ -119,9 +120,8 @@
 	.logo {
 		width: 50%;
 	}
-
-	header {
+	
+	body header {
 		background-size: 100%;
-		background-attachment: scroll;
 	}
 }
