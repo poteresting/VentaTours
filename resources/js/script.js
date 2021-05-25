@@ -2,7 +2,6 @@ $(document).ready(function(){
 	$('.js--section-services').waypoint(function(direction){
 		if(direction == "down"){
 			$('nav').addClass("sticky-nav");
-			console.log("ok")
 		}else {
 			$('nav').removeClass("sticky-nav");
 		}
@@ -43,4 +42,20 @@ $(document).ready(function(){
       }
     }
   });
+	
+	$(".js--wp-1").waypoint(function(direction){
+		$(".js--wp-1").addClass("animate__animated animate__pulse");
+	}, {offset: "28%"});
+
+	$(".js--wp-2").waypoint(function(direction){
+		$(".js--wp-2").addClass("animate__animated animate__fadeIn");
+	}, {offset: "50%"});
+
+	$(".js--wp-3").waypoint(function(direction){
+		$(".js--wp-3").addClass("animate__animated animate__backInUp");
+	}, {offset: "50%"});
+
+	$(".js--wp-4").waypoint(function(direction){
+		$(".js--wp-4").addClass("animate__animated animate__tada");
+	}, {offset: "38%"});
 });

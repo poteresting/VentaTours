@@ -675,3 +675,18 @@ footer p:last-child {
 .ion-email:active {
   color: #db4437;
 }
+
+/* ------------------------------------------------ */
+/* Animations */
+/* ------------------------------------------------ */
+
+.js--wp-2,
+.js--wp-3{
+  opacity: 0;
+  animation-duration: 2s;
+}
+
+.js--wp-2.animate__animated,
+.js--wp-3.animate__animated{
+  opacity: 1;
+}
