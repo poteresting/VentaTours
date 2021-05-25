@@ -1,4 +1,10 @@
 /* Big tablets to 1200px (width less than 1140px */
+@media only screen and (max-height: 500px){
+	.logo {
+		float: right;
+	}
+}
+
 @media only screen and (max-width: 1200px){
 
 	body {
