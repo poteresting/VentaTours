@@ -2,6 +2,7 @@
 @media only screen and (max-height: 500px){
 	.logo {
 		float: right;
+		margin-top: -10%;
 	}
 }
 
