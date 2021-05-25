@@ -99,7 +99,7 @@ header{
   height: 100vh;
   background-position: center;
   background-size: 100%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   z-index: -1;
 }
 
