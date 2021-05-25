@@ -122,7 +122,8 @@
 	}
 	
 	body header {
-		background-size: 100%;
+		/* background-size: 100%;
 		background-attachment: scroll;
+		z-index: -1; */
 	}
 }
