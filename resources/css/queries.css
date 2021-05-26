@@ -45,7 +45,7 @@
 	.logo {
 		width: 25%;
 		height: auto;
-		padding-top: 15%;
+		padding-top: 10%;
 		padding-left: 5%;
 	}
 
@@ -87,32 +87,7 @@
 	cite p {
 			font-size: 115%;
 	}
-}
-
-/* Small phones from 0 to 480px */
-@media only screen and (max-width: 479px){
-
-	body {
-		font-size: 70%;
-	}
-
-	.row {
-		padding: 0 5%;
-	}
-
-	cite {
-		width: 100%;
-	}
-
-	.started-box {
-		font-size: 110%;
-	}
-
-	.title-label{
-		font-size: 85%;
-		margin-left: 15%;
-	}
-
+	
 	header .logo {
 		width: 30%;
 		margin: 0;
@@ -168,5 +143,30 @@
 		width: 30%;
 		margin: 4% 0;
 		margin-bottom: 50%;
+	}
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 479px){
+
+	body {
+		font-size: 70%;
+	}
+
+	.row {
+		padding: 0 5%;
+	}
+
+	cite {
+		width: 100%;
+	}
+
+	.started-box {
+		font-size: 110%;
+	}
+
+	.title-label{
+		font-size: 85%;
+		margin-left: 15%;
 	}
 }
