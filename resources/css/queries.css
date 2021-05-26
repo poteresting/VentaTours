@@ -5,6 +5,10 @@
 		margin-top: 2%;
 		margin-left: -3%;
 	}
+
+	body .title-label {
+		margin-left: -5%;
+	}
 }
 
 @media only screen and (max-width: 1200px){
@@ -54,7 +58,7 @@
 		padding-left: 15%;
 	}
 
-	cite {
+	body .cite {
 		width: 130%;
 		height: auto;
 	}
@@ -81,12 +85,12 @@
 		width: 40%;
 	}
 
-	cite {
+	body .cite {
 		width: 85%;
 		height: auto;
 	}	
 
-	cite p {
+	body .cite p {
 			font-size: 115%;
 	}
 	
@@ -159,7 +163,7 @@
 		padding: 0 5%;
 	}
 
-	cite {
+	body .cite {
 		width: 100%;
 	}
 
