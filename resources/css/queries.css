@@ -169,7 +169,12 @@
 
 	.title-label{
 		font-size: 85%;
-		margin-left: 10%;
-		margin-top: 7%;
+		margin-left: -4%;
+		margin-top: 8%;
+	}
+
+	body .btn.btn-full.download-button {
+		margin-left: 18%;
+		margin-top: -10%;
 	}
 }
