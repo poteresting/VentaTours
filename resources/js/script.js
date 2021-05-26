@@ -56,7 +56,9 @@ $(document).ready(function(){
 	}, {offset: "50%"});
 
 	$(".js--wp-4").waypoint(function(direction){
-		$(".js--wp-4").addClass("animate__animated animate__tada");
+    if (window.matchMedia("(min-width: 480px)").matches){
+		  $(".js--wp-4").addClass("animate__animated animate__tada");
+    }
 	}, {offset: "38%"});
 
   $(".js--nav-icon").click(function(){
@@ -68,5 +70,4 @@ $(document).ready(function(){
     icon.toggleClass("ion-close-round");
     darkLogo.toggleClass("sticky-dark-logo");
   })
-
 });
