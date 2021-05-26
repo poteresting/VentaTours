@@ -1,9 +1,9 @@
 /* Big tablets to 1200px (width less than 1140px */
-@media only screen and (max-height: 500px){
-	.logo {
-		float: right;
-		margin-top: -10%;
-		margin-right: -3%;
+@media only screen and (max-height: 480px){
+	header nav .logo {
+		width: 15%;
+		margin-top: 2%;
+		margin-left: -3%;
 	}
 }
 
@@ -69,6 +69,7 @@
 
 	.title-label {
 		margin-left: 12%;
+		margin-top: 6%;
 	}
 
 	.logo {
@@ -146,7 +147,7 @@
 	}
 }
 
-/* Small phones from 0 to 480px */
+/* Small phones from 0 to 479px */
 @media only screen and (max-width: 479px){
 
 	body {
@@ -168,5 +169,6 @@
 	.title-label{
 		font-size: 85%;
 		margin-left: 15%;
+		margin-top: 7%;
 	}
 }
