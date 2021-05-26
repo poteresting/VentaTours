@@ -63,6 +63,12 @@
 /* Small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px){
 
+	body header {
+		background-size: 100%;
+		background-attachment: scroll;
+		z-index: -1;
+	}
+
 	body {
 		font-size: 80%;
 	}
@@ -75,10 +81,6 @@
 	.logo {
 		width: 40%;
 	}
-
-	/* .main-navigation {
-		display: none;
-	} */
 
 	cite {
 		width: 85%;

@@ -93,9 +93,9 @@ html{
 /* ------------------------------------------------ */
 
 header{
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3-min.jpg);
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/3.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3-min.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -430,13 +430,13 @@ input[type=button]:active{
 }
 
 /* ------------------------------------------------ */
-/* Reviews Section */
+/* Reviews Section */ 
 /* ------------------------------------------------ */
 
 .section-reviews {
-  background-image: -o-linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
-  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.85)),to(rgba(0,0,0,0.8))),url(../img/forest.jpg);
-  background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
+  background-image: -o-linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(img/forest-min-min.jpg);
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.85)),to(rgba(0,0,0,0.8))),url(img/forest-min-min.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(img/forest-min-min.jpg);
   background-size: cover;
   background-attachment: fixed;
   color:#fff;
