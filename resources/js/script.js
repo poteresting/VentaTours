@@ -26,7 +26,7 @@ $(document).ready(function(){
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
         $('html, body').animate({
-          scrollTop: target.offset().top-59
+					scrollTop: target.offset().top-59
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
@@ -45,7 +45,7 @@ $(document).ready(function(){
 	
 	$(".js--wp-1").waypoint(function(direction){
 		$(".js--wp-1").addClass("animate__animated animate__pulse");
-	}, {offset: "28%"});
+	}, {offset: "40%"});
 
 	$(".js--wp-2").waypoint(function(direction){
 		$(".js--wp-2").addClass("animate__animated animate__fadeIn");
@@ -58,4 +58,15 @@ $(document).ready(function(){
 	$(".js--wp-4").waypoint(function(direction){
 		$(".js--wp-4").addClass("animate__animated animate__tada");
 	}, {offset: "38%"});
+
+  $(".js--nav-icon").click(function(){
+    var nav = $(".js--main-nav");
+    var icon = $(".js--nav-icon");
+    var darkLogo = $(".js--dark-logo"); 
+    nav.slideToggle(300);
+    icon.toggleClass("ion-navicon-round");
+    icon.toggleClass("ion-close-round");
+    darkLogo.toggleClass("sticky-dark-logo");
+  })
+
 });

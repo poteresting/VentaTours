@@ -93,8 +93,8 @@ html{
 /* ------------------------------------------------ */
 
 header{
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/3.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/3.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/3.jpg);
   height: 100vh;
   background-position: center;
@@ -229,6 +229,17 @@ input[type=button]:active{
   border-bottom: 2px solid #e67e22;
 }
 
+.main-nav-icon {
+  float: right;
+  margin-top: 2%;
+  cursor: pointer;
+  display: none;
+}
+
+.main-nav-icon i{
+  font-size: 250%;
+  color: #fff;
+}
 
 /* Sticky Navigation */
 .sticky-nav {
@@ -237,7 +248,8 @@ input[type=button]:active{
   top: 0%;
   right: 0%;
   background-color: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 2px 2px #c4c4c4;
+  -webkit-box-shadow: 0 2px 2px #c4c4c4;
+          box-shadow: 0 2px 2px #c4c4c4;
   z-index: 9999;
 }
 
@@ -257,7 +269,7 @@ input[type=button]:active{
 
 .sticky-nav .dark-logo {
   display: block;
-  width: 5%
+  width: 5%;
 }
 
 
@@ -422,8 +434,8 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .section-reviews {
-  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.85)),to(rgba(0,0,0,0.8))),url(../img/forest.jpg);
   background-image: -o-linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.85)),to(rgba(0,0,0,0.8))),url(../img/forest.jpg);
   background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.8)),url(../img/forest.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -683,7 +695,8 @@ footer p:last-child {
 .js--wp-2,
 .js--wp-3{
   opacity: 0;
-  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .js--wp-2.animate__animated,
