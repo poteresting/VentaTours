@@ -63,7 +63,8 @@
 /* Small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px){
 
-	body header {
+	body header,
+	body .section-reviews {
 		background-attachment: scroll;
 	}
 
