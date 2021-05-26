@@ -64,7 +64,6 @@
 @media only screen and (max-width: 767px){
 
 	body header {
-		background-size: 100%;
 		background-attachment: scroll;
 		z-index: -1;
 	}
