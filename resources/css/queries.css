@@ -63,6 +63,11 @@
 /* Small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px){
 
+	/* body header {
+		/* background-attachment: fixed;
+		z-index: -1;
+	} */
+
 	body {
 		font-size: 80%;
 	}
