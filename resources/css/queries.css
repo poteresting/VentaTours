@@ -150,6 +150,16 @@
 		margin: 4% 0;
 		margin-bottom: 50%;
 	}
+
+	body .section-get-started .cow-move {
+		margin-top: -15%;
+		padding-right: 0;
+	}
+
+	body .next-step{
+		font-size: 115%;
+		margin-top: 25px;
+	}
 }
 
 /* Small phones from 0 to 479px */
@@ -178,7 +188,8 @@
 	}
 
 	body .btn.btn-full.download-button {
-		margin-left: 18%;
-		margin-top: -10%;
+		font-size: 120%;
+		margin-left: 15%;
+		/* margin-top: -20%; */
 	}
 }

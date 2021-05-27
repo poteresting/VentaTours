@@ -338,7 +338,8 @@ input[type=button]:active{
 /* ------------------------------------------------ */
 
 .section-get-started {
-  padding: 70px 0px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 .started-box:first-child {
   margin-top: 60px;
@@ -384,12 +385,9 @@ input[type=button]:active{
   line-height: 40px;
 }
 
- .next-step:nth-last-child(2){
-  margin-bottom: 70px;
-}
-
 .btn.btn-full.download-button{
-  margin-left: 10%;
+  font-size: 120%;
+  margin: 12% -4%;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
