@@ -7,4 +7,4 @@ Description: This is a functional and responsive website for my project idea cal
 Concept: HTML and CSS, Media queries
 
 # Instructions to view webpage:
--> Go to https://poteresting.github.io/
+-> Go to https://poteresting.github.io/VentaTours
