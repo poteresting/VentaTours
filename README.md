@@ -2,7 +2,7 @@
 
 Project: A responsive website 
 
-Description: This is a functional and responsive website for my project idea called "VentaTours", that is a website for tourism company providing tour services and information.
+Description: This is a responsive website project i built  for an imaginary company named "VentaTours", which is a tourism company providing tour services and information to customers.
 
 Concept: HTML and CSS, Media queries
 
